@@ -1,4 +1,5 @@
 import math
+from decimal import Decimal
 #Exercise 1
 
 meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio']
@@ -12,6 +13,8 @@ temperatura_diaria = {
     'miercoles': 15,
     'jueves': 18,
 }
+
+print(Decimal(precio))
 
 #Exercise 2
 print(round(nota))
@@ -40,7 +43,7 @@ meses.sort()
 print(meses)
 
 #Exercise 9
-dias = dias + ('sábado',)
+dias += ('sábado',)
 print(dias) 
 
 
