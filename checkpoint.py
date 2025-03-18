@@ -6,15 +6,13 @@ meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio']
 dias = ('Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes')
 nota= 3.6
 año = 2025
-precio = 21.50
+precio = Decimal(21.50)
 temperatura_diaria = {
     'lunes': 20,
     'martes': 25,
     'miercoles': 15,
     'jueves': 18,
 }
-
-print(Decimal(precio))
 
 #Exercise 2
 print(round(nota))
